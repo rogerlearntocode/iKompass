@@ -24,7 +24,7 @@
    
     self.imageView.image=self.imageOfCountry;
     self.travellerName.text= [@"Hi, " stringByAppendingString: self.travellerNameEntered];
-    self.travelPriceLabel.text = [@"S$" stringByAppendingString: self.priceRelatedToCounty];
+    self.travelPriceLabel.text = [@"S$" stringByAppendingString: self.priceRelatedToCountry];
     
     
 }
@@ -34,7 +34,7 @@
     
     bookingViewController.title = [sender currentTitle];
     bookingViewController.travellerNameConfirm =self.travellerNameEntered;
-    bookingViewController.priceConfirm = self.priceRelatedToCounty;
+    bookingViewController.priceConfirm = self.priceRelatedToCountry;
     bookingViewController.destinationConfirm = self.travelCountry;
     
     

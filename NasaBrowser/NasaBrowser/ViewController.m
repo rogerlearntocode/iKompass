@@ -11,7 +11,12 @@
 @interface ViewController () <UIWebViewDelegate, UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
-@property (weak, nonatomic) IBOutlet UITextField *urlString;@end
+@property (weak, nonatomic) IBOutlet UITextField *urlString;
+
+
+
+@end
+
 
 @implementation ViewController
 
@@ -48,10 +53,13 @@
 
     [self.webView loadRequest:request];
     
-   [textField resignFirstResponder];
+    [textField resignFirstResponder];
     
     return YES;
 
+
 }
+
+
 
 @end

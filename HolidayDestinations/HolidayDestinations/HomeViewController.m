@@ -37,13 +37,13 @@
         
         destinationViewController.imageOfCountry = [UIImage imageNamed:@"Australia"];
         
-        destinationViewController.priceRelatedToCounty = @"2000.00";
+        destinationViewController.priceRelatedToCountry = @"2000.00";
         destinationViewController.travelCountry =@"Australia";
         
     } else{
         destinationViewController.imageOfCountry = [UIImage imageNamed:@"Greece"];
         
-        destinationViewController.priceRelatedToCounty = @"3000.00";
+        destinationViewController.priceRelatedToCountry = @"3000.00";
         destinationViewController.travelCountry =@"Greece";
  
     

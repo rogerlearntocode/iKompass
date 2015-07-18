@@ -11,7 +11,7 @@
 @interface HolidayViewController : UIViewController
 @property UIImage *imageOfCountry;
 @property NSString *travellerNameEntered;
-@property NSString *priceRelatedToCounty;
+@property NSString *priceRelatedToCountry;
 @property NSString *travelCountry;
 
 
